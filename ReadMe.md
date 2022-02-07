@@ -71,5 +71,10 @@ fontFamily section in extend,
     },
   },
 ```
+------------------------
 
+Remember something, 
+
+-- As our project run on vite, the tailwind css can not get if we only click html file
+-- for everything work fine we need to keep vite serve on, for that run command ```npm run dev``` and server link will be listen at localhost:3000
 
