@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog with Tailwind CSS</title>
+    <script src="https://kit.fontawesome.com/36d9f3a369.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="bg-white shadow-sm">
+        <div class="container mx-auto px-40 py-3 flex items-center justify-between">
+            <div class="w-14 logo">
+                <a href="#" alt="">
+                    <img src="/assets/img/logo-m.svg" alt="logo">
+                </a>
+            </div>
+
+            <div class="ml-12 flex">
+                <a href="#" class="px-4 flex items-center font-semibold hover:text-green-500 transition"> 
+                    <span class="mr-2"> <i class="fas fa-home"></i> </span> 
+                    Home
+                </a>
+                <a href="#" class="px-4 flex items-center font-semibold hover:text-green-500 transition"> 
+                    <span class="mr-2"> <i class="fas fa-file-alt"></i> </span> 
+                    About
+                </a>
+                <a href="#" class="px-4 flex items-center font-semibold hover:text-green-500 transition"> 
+                    <span class="mr-2"> <i class="fas fa-phone"></i> </span> 
+                    Contact
+                </a>
+            </div>
+
+            <div class="relative search">
+                <span class="absolute left-3 top-2 text-sm text-gray-500"> <i class="fas fa-search"></i> </span>
+                <input type="text"
+                placeholder="Search...."
+                class="block w-full border-none rounded-3xl pl-11 pr-2 py-2 focus:outline-none bg-gray-100 text-sm text-gray-700">
+            </div>
+
+            <div class="ml-5 login">
+                <a href="#" class="item-center text-sm font-semibold hover:text-green-500 transition">
+                    <span class="mr-2">
+                        <i class="far fa-user"></i>
+                    </span>
+                    Login/Register
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+    
+</body>
+</html>
