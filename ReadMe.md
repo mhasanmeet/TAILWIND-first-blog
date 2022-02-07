@@ -72,9 +72,4 @@ fontFamily section in extend,
   },
 ```
 
--- In here we use 
-* Semantic HTML
-* BEM 
-* Use meta & alt for SEO
-
 
