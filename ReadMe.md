@@ -76,5 +76,24 @@ fontFamily section in extend,
 Remember something, 
 
 -- As our project run on vite, the tailwind css can not get if we only click html file
--- for everything work fine we need to keep vite serve on, for that run command ```npm run dev``` and server link will be listen at localhost:3000
+-- for getting compiled css file we need to **
+
+-- npm run build the files, for that
+
+* first create a dist folder and create a css file where compiled css file will be build there
+* then for build purpose we created a css file like "style.css" from outside dist folder, we need that file
+* install tailwind globally as run command ```npm install -D tailwindcss```
+* then buil file run command ```npx tailwindcss -i {compiled css file} -o {watch css file} --watch```
+* then we get a compiled css file
+
+----------------------------- 
+
+More work todo 
+
+* JavaScript functionality
+* slider active
+* CSS variable
+* BEM style css
+* Responsive media query
+
 
